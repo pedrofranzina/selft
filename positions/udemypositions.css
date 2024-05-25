@@ -1,0 +1,38 @@
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(150, 0, 150);
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+}
+.static .yellow{
+    background-color: rgb(170, 170, 11);
+    position: static;
+    top: 100px;
+}
+
+/*The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left.*/
+.relative .yellow{
+    background-color: rgb(170, 170, 11);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* The element is positioned relative to its closest positioned ancestor (if any) or to the initial containing block. */
+.absolute .yellow{
+    background-color: rgb(170, 170, 11);
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+/* this fixed position relates with the body and it's fixed when you scroll the page. usefull, for instance, for footers*/
+.fixed .yellow{
+    background-color: rgb(170, 170, 11);
+    position: fixed;
+    top: 0;
+    left: 500px;
+}
