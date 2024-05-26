@@ -6,6 +6,13 @@ body{
     background-color: #151b29;
     font-family: 'Roboto', sans-serif;
 }
+/* a{
+    text-decoration: none;
+    color: #ffa260;
+}
+a:hover{
+    color: white;
+} */
 button{
     background: none;
     color: #ffa260;
