@@ -28,3 +28,15 @@ button:hover{
     transition: all 0.2s;
     cursor: pointer;
 }
+
+
+@media (max-width: 800px){
+    button{
+        color: yellow;
+    }
+}
+@media (max-width: 600px){
+    button{
+        color: red;
+    }
+}
